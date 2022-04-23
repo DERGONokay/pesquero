@@ -1,3 +1,0 @@
-Pillow~=9.1.0
-pyautogui~=0.9.53
-PyQt5~=5.15.6
