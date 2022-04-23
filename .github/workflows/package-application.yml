@@ -15,11 +15,11 @@ jobs:
     - name: Package Application
       uses: JackMcKew/pyinstaller-action-windows@main
       with:
-        path: src
+        path: .
         spec: pesquero.spec
 
     - uses: actions/upload-artifact@v2
       with:
         name: fisherman
-        path: src/dist/windows
+        path: dist/windows
         if-no-files-found: error
