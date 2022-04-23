@@ -8,7 +8,7 @@ a = Analysis(
     ['src\\pesquero.pyw'],
     pathex=[],
     binaries=[],
-    datas=[('assets', 'assets')],
+    datas=[('src/assets', 'assets')],
     hiddenimports=[],
     hookspath=[],
     runtime_hooks=[],
