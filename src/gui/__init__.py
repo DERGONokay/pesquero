@@ -29,7 +29,7 @@ class Window(QMainWindow):
     def initUI(self):
         self.setGeometry(660, 340, 600, 400)
         self.setWindowTitle("DERGON Studios - Pesquero v2.0")
-        self.setWindowIcon(QtGui.QIcon('assets/icon.png'))
+        self.setWindowIcon(QtGui.QIcon('assets/logo.ico'))
 
         fishing_button = QPushButton("Start Fishing", self)
         fishing_button.setToolTip("Arranca a pescar")
