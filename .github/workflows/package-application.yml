@@ -22,4 +22,4 @@ jobs:
       with:
         name: fisherman
         path: src/dist/windows
-        if-no-files-found: fail
+        if-no-files-found: error
