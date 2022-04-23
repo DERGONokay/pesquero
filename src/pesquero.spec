@@ -5,7 +5,7 @@ block_cipher = None
 
 
 a = Analysis(
-    ['src\\pesquero.pyw'],
+    ['pesquero.pyw'],
     pathex=[],
     binaries=[],
     datas=[('assets', 'assets')],
