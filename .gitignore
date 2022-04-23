@@ -1,3 +1,5 @@
+src/dist
+src/build
 venv
 .idea
 logs
