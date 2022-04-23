@@ -1,8 +1,8 @@
 import threading
 import time
-import pyautogui
 import logging
 import datetime
+import pyautogui
 from PIL import ImageGrab
 
 

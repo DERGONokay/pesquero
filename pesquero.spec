@@ -36,7 +36,7 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon='assets\\logo.ico',
+    icon='src\\assets\\logo.ico',
 )
 coll = COLLECT(
     exe,
@@ -46,5 +46,5 @@ coll = COLLECT(
     strip=False,
     upx=True,
     upx_exclude=[],
-    name='pesquero',
+    name='fisherman',
 )
